@@ -1,0 +1,42 @@
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Python
+p3-env/
+
+# Files
+*.csv
+
+# Executables
+bent_pipe
+close_spaced
+frame_spaced
+test_capacitor
+test_channel
+test_date_time
+test_ground_station
+test_log
+test_receiver
+test_satellite
+test_sensor
+test_solar_array
+test_state_machine
+test_state_transition
+test_transmitter
+test_utilities
+generate_coms
+generate_constellation_configuration
+generate_constellation_tracks
+generate_ecis
+generate_gnds
+generate_ground_tracks
+generate_sun_azel
+generate_sat_azel
+generate_irradiance_trace
+generate_voltage_trace
+all_params
+generate_links
+capture_and_downlink
