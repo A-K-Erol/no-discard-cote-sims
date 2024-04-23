@@ -8,11 +8,16 @@
 # Other contributors: None
 #
 # See the top-level LICENSE file for the license.
+tles=$(python3 get_tles.py ./spire-config/tles)
 
 cd ../../../scripts/gen-config/
-python3 generate_orbit_spaced_sat_files.py 24 \
- ../../examples/all-params/scripts/spire-config/starlink-1082-4493800000.tle \
+for tle in $tles
+do
+  python3 generate_orbit_spaced_sat_files.py 1 \
+ ../../examples/all-params/scripts/spire-config/$tle.tle \
  ../../examples/all-params/spire-configuration/
+done
+
 python3 generate_date_time_file.py ../../examples/all-params/spire-configuration/ \
  ../../examples/all-params/spire-configuration/
 python3 generate_time_step_file.py 0 0 0 1000000 \

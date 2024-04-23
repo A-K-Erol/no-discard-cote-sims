@@ -24,8 +24,8 @@ else:
 tles = os.listdir(tle_dir)
 tles.sort()
 ids = []
-for i in range(0,math.floor(float(len(tles))/2.0)):
-  ids.append(tles[i][0:8])
+for i in range(0,len(tles)):
+  ids.append(tles[i][0:-4])
 
 outstr = ''
 for e in ids:
