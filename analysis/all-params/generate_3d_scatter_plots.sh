@@ -17,7 +17,7 @@ then
 fi
 # source ../p3-env/bin/activate
 python3 generate_3d_scatter_plots.py \
- ../../examples/all-params/logs/ ./3d-scatter-charts/
+ ../../examples/all-params/spire-logs/ ./3d-scatter-charts/
 # deactivate
 pdftk ./3d-scatter-charts/*.pdf cat output \
  ./3d-scatter-charts/3d-scatter-charts.pdf

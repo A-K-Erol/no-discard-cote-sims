@@ -17,20 +17,20 @@ then
 fi
 # source ../p3-env/bin/activate
 python3 generate_constellation_state_pie_chart.py \
- ../../examples/all-params/configuration/num-steps.dat \
- ../../examples/all-params/logs/ adacs ./state-pie-charts/
+ ../../examples/all-params/spire-configuration/num-steps.dat \
+ ../../examples/all-params/spire-logs/ adacs ./state-pie-charts/
 python3 generate_constellation_state_pie_chart.py \
- ../../examples/all-params/configuration/num-steps.dat \
- ../../examples/all-params/logs/ camera ./state-pie-charts/
+ ../../examples/all-params/spire-configuration/num-steps.dat \
+ ../../examples/all-params/spire-logs/ camera ./state-pie-charts/
 python3 generate_constellation_state_pie_chart.py \
- ../../examples/all-params/configuration/num-steps.dat \
- ../../examples/all-params/logs/ computer ./state-pie-charts/
+ ../../examples/all-params/spire-configuration/num-steps.dat \
+ ../../examples/all-params/spire-logs/ computer ./state-pie-charts/
 python3 generate_constellation_state_pie_chart.py \
- ../../examples/all-params/configuration/num-steps.dat \
- ../../examples/all-params/logs/ rx ./state-pie-charts/
+ ../../examples/all-params/spire-configuration/num-steps.dat \
+ ../../examples/all-params/spire-logs/ rx ./state-pie-charts/
 python3 generate_constellation_state_pie_chart.py \
- ../../examples/all-params/configuration/num-steps.dat \
- ../../examples/all-params/logs/ tx ./state-pie-charts/
+ ../../examples/all-params/spire-configuration/num-steps.dat \
+ ../../examples/all-params/spire-logs/ tx ./state-pie-charts/
 # deactivate
 pdftk ./state-pie-charts/*.pdf cat output \
  ./state-pie-charts/state-pie-charts.pdf
