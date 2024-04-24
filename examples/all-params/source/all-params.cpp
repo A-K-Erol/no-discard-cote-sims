@@ -821,9 +821,9 @@ int main(int argc, char** argv) {
   // Simulation loop
   uint64_t stepCount = 0;
 
-  while(stepCount< 100000) {
+  while(stepCount < 50000) {
     if (stepCount % 5000 == 0){
-      std::cout << "Num steps: " << stepCount << " Progress: " << (100.0 * stepCount) / 100000 << "% " << std::endl;
+      std::cout << "Num steps: " << stepCount << " Progress: " << (100.0 * stepCount) / 1000000 << "% " << std::endl;
     }
     
     // Date and time
