@@ -7,6 +7,7 @@ computing. The software namespace, `cote`, stands for "computing on the edge."
 A cote is a shelter for carrier pigeons.
 
 **From the Original Creators**
+
 See our Best Paper from ASPLOS'20:
 [https://brandonlucia.com/pubs/oec-asplos2020.pdf](https://brandonlucia.com/pubs/oec-asplos2020.pdf)
 
