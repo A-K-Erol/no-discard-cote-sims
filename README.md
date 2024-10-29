@@ -1,9 +1,12 @@
-# Orbital Edge Computing Simulation Software
+# Simulation without Discard
+
+The traditional OEC setup discards images that are determined to be of low value, often times obfuscated by clouds. I build upon the original OEC software introduced by Brad Denby and Brendan Lucia to reprioritize rather than discard images of low value, using alternative strategies to reduce data volume such as compression. The driver code is located in examples/no-discard.
 
 This software provides classes and utilities for simulating orbital edge
 computing. The software namespace, `cote`, stands for "computing on the edge."
 A cote is a shelter for carrier pigeons.
 
+**From the Original Creators**
 See our Best Paper from ASPLOS'20:
 [https://brandonlucia.com/pubs/oec-asplos2020.pdf](https://brandonlucia.com/pubs/oec-asplos2020.pdf)
 
